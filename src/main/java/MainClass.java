@@ -23,7 +23,7 @@ public class MainClass {
             runner.startDriver();
 
             ApplicationLauncher.launchApplication();
-            Thread.sleep(1000);
+            Thread.sleep(3000);
 
             AutomationScriptRunner.execute();
             // Додай код для роботи з UI елементами тут...

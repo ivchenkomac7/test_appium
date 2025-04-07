@@ -19,34 +19,34 @@ public class AutomationScriptRunner {
 
         try {
             // ✅ Натискаємо кнопку "Create"
-            WebElement newDocumentButton = driver.findElement(By.id("Create"));
+            WebElement newDocumentButton = driver.findElement(By.name("Create"));
             newDocumentButton.click();
 
             Thread.sleep(1000);
 
             // ✅ Натискаємо кнопку "Новий аналіз"
-            WebElement newAnalysis = driver.findElement(By.id("New Analysis..."));
+            WebElement newAnalysis = driver.findElement(By.name("New Analysis..."));
             newAnalysis.click();
 
             // ✅ Натискаємо кнопку "Simple Linear Regression"
-            WebElement newSLR = driver.findElement(By.id("Simple linear regression"));
+            WebElement newSLR = driver.findElement(By.name("Simple linear regression"));
             newSLR.click();
 
             Thread.sleep(1000);
 
             // ✅ Натискаємо кнопку "OK"
-            WebElement OK = driver.findElement(By.id("OK"));
+            WebElement OK = driver.findElement(By.name("OK"));
             OK.click();
 
             Thread.sleep(1000);
 
-//            WebElement showThe = driver.findElement(By.id("Show the"));
-//            showThe.click();
-//            Thread.sleep(1000);
-//
-//            WebElement confidence = driver.findElement(By.id("95% confidence bands"));
-//            confidence.click();
-//            Thread.sleep(1000);
+            WebElement showThe = driver.findElement(By.name("Show the"));
+            showThe.click();
+            Thread.sleep(1000);
+
+            WebElement confidence = driver.findElement(By.name("95% confidence bands"));
+            confidence.click();
+            Thread.sleep(1000);
 
 
 //            Map<String, String> expectedValues = XMLParser.parseXml("elements.xml");
