@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elements>
+    <element>
+        <id>Interpolate unknowns from standard curve</id>
+        <value>1</value>
+    </element>
+    <element>
+        <id>Test whether slopes and intercepts are significantly different</id>
+        <value>0</value>
+    </element>
+    <element>
+        <id>95% confidence bands</id>
+        <value>95% confidence bands</value>
+    </element>
+
+</elements>
