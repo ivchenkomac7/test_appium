@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <elements>
     <element>
-        <id>Interpolate unknowns from standard curve</id>
+        <name>Interpolate unknowns from standard curve</name>
         <value>1</value>
     </element>
     <element>
-        <id>Test whether slopes and intercepts are significantly different</id>
+        <name>Test whether slopes and intercepts are significantly different</name>
         <value>0</value>
     </element>
     <element>
-        <id>95% confidence bands</id>
+        <name>95% confidence bands</name>
         <value>95% confidence bands</value>
     </element>
 

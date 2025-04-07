@@ -39,7 +39,7 @@ public class XMLParser {
                     Element element = (Element) node;
 
                     // Отримуємо id та value для кожного елемента
-                    String elementId = element.getElementsByTagName("id").item(0).getTextContent();
+                    String elementId = element.getElementsByTagName("name").item(0).getTextContent();
                     String expectedValue = element.getElementsByTagName("value").item(0).getTextContent();
 
     //                // Логування для перевірки значень
