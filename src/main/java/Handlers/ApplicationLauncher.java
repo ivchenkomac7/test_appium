@@ -12,6 +12,7 @@ public class ApplicationLauncher {
 
 
     private static final String MAC_APP = "Prism";
+    private static final String WIN_PATH = "C:\\Program Files\\GraphPad\\Prism beta\\prism.exe";
 
     public static void launchApplication() {
         String os = System.getProperty("os.name").toLowerCase();
@@ -44,7 +45,7 @@ public class ApplicationLauncher {
     private static void launchWindowsApplication() {
         System.out.println("🚀 Запуск на Windows...");
         try {
-            new ProcessBuilder("notepad.exe").start();
+            new ProcessBuilder(WIN_PATH).start();
             System.out.println("✅ Програму успішно запущено!");
             Thread.sleep(2000);
         } catch (Exception e) {

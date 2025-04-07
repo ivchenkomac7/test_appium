@@ -14,7 +14,7 @@ public class WindowsAppiumRunner extends AppiumBaseRunner {
         System.out.println("🖥️ Запуск Appium для Windows...");
 
         WindowsOptions options = new WindowsOptions();
-        options.setApp("C:\\Windows\\System32\\notepad.exe"); // Шлях до Блокнота
+//        options.setApp("C:\\Program Files\\GraphPad\\Prism beta\\prism.exe");
 
         driver = new WindowsDriver(new URL("http://localhost:4723"), options);
         System.out.println("✅ Appium для Windows успішно запущено!");
