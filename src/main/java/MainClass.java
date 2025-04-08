@@ -3,7 +3,7 @@ import AppiumRuner.MacAppiumRunner;
 import AppiumRuner.WindowsAppiumRunner;
 import Handlers.ApplicationLauncher;
 import Handlers.AutomationScriptRunner;
-import io.appium.java_client.AppiumDriver;
+import Handlers.ElementValidator;
 
 public class MainClass {
     public static void main(String[] args) throws Exception {
@@ -25,7 +25,8 @@ public class MainClass {
             ApplicationLauncher.launchApplication();
             Thread.sleep(3000);
 
-            AutomationScriptRunner.execute();
+            AutomationScriptRunner.executeScenario("simple_linear_regression_mac");
+            ElementValidator.checkElements("simple_linear_regression_elements_mac.xml");
             // Додай код для роботи з UI елементами тут...
 
             runner.stopDriver();

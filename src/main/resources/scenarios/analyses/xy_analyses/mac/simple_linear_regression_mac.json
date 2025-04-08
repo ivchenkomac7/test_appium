@@ -1,0 +1,32 @@
+{
+  "steps": [
+    {
+      "action": "click",
+      "elementId": "Create"
+    },
+    {
+      "action": "wait",
+      "duration": 1000
+    },
+    {
+      "action": "click",
+      "elementId": "New Analysis..."
+    },
+    {
+      "action": "wait",
+      "duration": 1000
+    },
+    {
+      "action": "click",
+      "elementId": "Simple linear regression"
+    },
+    {
+      "action": "wait",
+      "duration": 1000
+    },
+    {
+      "action": "click",
+      "elementId": "OK"
+    }
+  ]
+}
